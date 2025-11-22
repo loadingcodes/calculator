@@ -19,3 +19,6 @@ def test_sub():
     
 def test_div():
     assert div(6,0)
+    
+def test_div():
+    assert div(6,1) == 3
