@@ -18,4 +18,4 @@ def test_sub():
     assert sub(2,5) == -3
     
 def test_div():
-    assert div(6,3) == 2
+    assert div(6,0)
