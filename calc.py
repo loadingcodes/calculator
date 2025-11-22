@@ -10,5 +10,9 @@ def mult(a,b):
 def div(a,b):
     return a / b
 
-def karatsuba():
-    pass
+
+def test_sum():
+    assert sum(2,3) == 5
+
+def test_sub():
+    assert sub(2,5) == -3
